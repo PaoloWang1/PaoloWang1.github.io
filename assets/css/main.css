@@ -1,6 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
 
-
+iframe {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 100%;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
