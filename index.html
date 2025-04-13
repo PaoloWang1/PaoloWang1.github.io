@@ -1,220 +1,380 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Paolo Wang</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<a href="#" class="fa fa-facebook"></a>
-		<a href="#" class="fa fa-linkedin"></a>
-		<a href="#" class="fa fa-instagram"></a>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paolo Wang - Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#home">Paolo Wang</a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" id="closeMenu"></i>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" id="openMenu"></i>
+            </div>
+        </nav>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Academic life</a></li>
-							<li><a href="#two">Personal life</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Paolo Wang</h1>
+                    <h2>Artificial Intelligence Student</h2>
+                    <p>Passionate about AI, machine learning, and creating innovative solutions</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a Bachelor of Science in Artificial Intelligence student at Purdue University with a passion for machine learning, data analysis, and AI applications. My academic journey has equipped me with strong foundations in programming, mathematics, and AI concepts.</p>
+                    <p>With experience in research and teaching, I enjoy tackling complex problems and developing innovative solutions. I am particularly interested in image generation, music generation using AI, and neural networks for classification tasks.</p>
+                    <p>As a bilingual individual fluent in English and Mandarin, I bring diverse perspectives to my work and collaborations. I am constantly seeking opportunities to expand my knowledge and skills in the rapidly evolving field of artificial intelligence.</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>English (Native)</li>
+                            <li>Mandarin (Native)</li>
+                        </ul>
+                    </div>
+                    <div class="info-item">
+                        <h3>Education</h3>
+                        <p>B.S. in Artificial Intelligence</p>
+                        <p>Purdue University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Hey there. I'm Paolo.</h1>
-							<p>I'm a freshman at Purdue University studying Artificial Intelligence. As a naturally curious person, I've worked on a variety of projects or research in machine learning, psychology, environmental science, and short story writing. 
-								Outside of these projects, I'm also heavily involved in my community; I provide piano lessons and was an AP Physics TA at at my high school. 
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Purdue University - West Lafayette</h3>
+                    <span class="date">Expected Graduation: May 2027</span>
+                </div>
+                <p class="degree">Bachelor of Science in Artificial Intelligence</p>
+                <div class="courses">
+                    <h4>Relevant Courses:</h4>
+                    <ul>
+                        <li>Elementary Linear Algebra</li>
+                        <li>Foundation of CS</li>
+                        <li>Data Engineering in Python</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="Misinformation.html" class="image"><img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2021/12/99871876.jpg?auto=format&q=60&fit=max&w=930" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Information Transmission Methods</h2>
-									<p>Currently conducting research for the Science Internship Program (SIP) at UCSC on the travel of information on social media, specifically TikTok and Twitter using thematic analysis. (Press on the images to learn more).</p>
-									
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="Hands.html" class="image"><img src="images/hand.png" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Hand Variational Auto-Encoder</h2>
-									<p>Tuned and trained a VAE (Variational Auto-Encoder) to output hands with random finger patterns and positions.</p>
-									
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="PM.html" class="image"><img src="https://www.pnas.org/cms/10.1073/pnas.1307735110/asset/8e01d53a-4172-4c15-8f79-bc992216ed52/assets/graphic/pnas.1307735110unfig01.jpeg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Foliage's Effect on PM 2.5 Concentration</h2>
-									<p>Currently researching the effects of specific foliage species have on nearby PM 2.5 concentration.</p>
-								</div>
-							</div>
-						</section>
-						
-						<section>
-							<a href="https://colab.research.google.com/drive/1-vMEv0r6mVbg2SAD73ZhzGnNA8YZRc9o?usp=sharing" class="image"><img src="https://images.photowall.com/products/46220/piano-keyboard-1.jpg?h=699&q=85" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Piano Generation</h2>
-									<p>Trained an LSTM model to output piano music using MIDI files.</p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="https://docs.google.com/document/d/1bhqT-o2oYv62xE35GgERheXch3SaDEqTl5-wHlCPaig/edit?usp=sharing" class="image"><img src="https://img.freepik.com/free-vector/cute-alien-flying-with-spaceship-ufo-cartoon-science-technology-icon-concept-isolated-flat-cartoon-style_138676-2203.jpg?w=2000" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>The Adaros</h2>
-									<p>Wrote a sci-fi short story for fun in sophomore year.</p>
-									
-								</div>
-							</div>
-						</section>
-					</section>
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>January 2025 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Research Intern</h3>
+                        <h4>Purdue University</h4>
+                        <ul class="responsibilities">
+                            <li>Working on Purdue's AI for Education VIP team to develop AI tutoring services by fine-tuning LLMs and using retrieval augmented generation (RAG) to improve answers</li>
+                        </ul>
+                    </div>
+                </div>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>My Personal Life</h2>
-							<p>Outside of academics, I prefer to dabble in a wide variety of other activities. </p>
-							<div class="features">
-								<section>
-									
-									<h3>Piano</h3>
-									<p>I've been playing the piano for over eight years. I did CM up to level 9, but I stopped as I only wanted to play the romantic period pieces (CM forced me to play pieces from each of the four musical periods).</p>
-								</section>
-								<section>
-									
-									<h3>Piano Tutor</h3>
-									<p>Since the summer of 2022, I've been providing piano tutoring services to children of family friends, most of whom have had little to no prior musical experience. 
-										From this, I learned that the most important aspect of education is engagement and interest; without them, the student has no motivation to learn, which results in inefficent or lackluster practices.
-									</p>
-								</section>
-								<section>
-									
-									<h3>Volunteering</h3>
-									<p>I taught Nepalese students music theory and math through Zoom from 2020 to 2022.</p>
-								</section>
-								<section>
-									
-									<h3>Track and Field</h3>
-									<p>I've been sprinting for my school's track and field team for two seasons now. I currently run the 100m and 200m and I used to run 400m.</p>
-								</section>
-								<section>
-									
-									<h3>Bouldering</h3>
-									<p>I occassionally climb at my local climbing gym. I'm not very good, but I find it really fun as it reminds me of the trees I used to climb at my elementary school.</p>
-								</section>
-								<section>
-									
-									<h3>Clubs</h3>
-									<p>I'm was the tresurer of my school's Crypto club and the secretary of Hunger at Home.</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="piano.html" class="button">Some of my past piano recordings</a></li>
-							</ul>
-						</div>
-					</section>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>August 2023 - June 2024</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Teaching Assistant</h3>
+                        <h4>Saratoga High School</h4>
+                        <ul class="responsibilities">
+                            <li>Acted as TA for high school's AP Physics 1&2 course</li>
+                            <li>Provided support for students to enhance their engagement and understanding in physics</li>
+                            <li>Improved grades of students I taught externally by an average of one letter grade</li>
+                        </ul>
+                    </div>
+                </div>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p></p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Email</h3>
-											<a href="#">paolo060314@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(669) 291-4256</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://www.facebook.com/paolo.wang.1447/" class="fa fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="https://www.instagram.com/paolowangg/" class="fa fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="https://www.linkedin.com/in/paolo-wang-559a94243/" class="fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>June 2023 - August 2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Research Intern</h3>
+                        <h4>University of California, Santa Cruz</h4>
+                        <ul class="responsibilities">
+                            <li>Collaborated with 3 other high school interns to analyze misinformation diffusion methods on social media</li>
+                            <li>Manually collected and classified ~200 posts from TikTok and Twitter, identifying patterns in the methods through which misinformation was distributed and the difference between each platform</li>
+                            <li>Presented research findings to UCSC psychology faculty</li>
+                        </ul>
+                    </div>
+                </div>
 
-			</div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>June 2022 - August 2022</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Intern</h3>
+                        <h4>Global Logistic Properties</h4>
+                        <ul class="responsibilities">
+                            <li>Worked on market analysis on RaaS (Robotics as a service) industry in the United States</li>
+                            <li>Investigated 7 different competitors and presented on them</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Paolo Wang. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Image Generation Using Variational Autoencoders</h3>
+                        <ul class="project-details">
+                            <li>Built two different variational autoencoders to generate new images of hands and abstract paintings using Tensorflow</li>
+                            <li>Organized and trained autoencoders of datasets of 10k and 18k images</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Tensorflow</span>
+                            <span>VAE</span>
+                            <span>Image Generation</span>
+                        </div>
+                    </div>
+                </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Music Generation LSTM</h3>
+                        <ul class="project-details">
+                            <li>Organized dataset of 1k+ piano MIDI files for training using Numpy and Pandas</li>
+                            <li>Trained model using LSTM template from Keras</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>LSTM</span>
+                            <span>Keras</span>
+                            <span>Music Generation</span>
+                        </div>
+                    </div>
+                </div>
 
-	</body>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Painting Classifier</h3>
+                        <ul class="project-details">
+                            <li>Built and trained a Concurrent Neural Network to classify paintings by seven artists</li>
+                            <li>Cleaned and organized 2k images of paintings with artist labels</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>CNN</span>
+                            <span>Classification</span>
+                            <span>Image Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Proficient</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">C++</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Intermediate</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">HTML</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Activities & Interests</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Piano</h3>
+                    <p>Certificate of Merit Level 9</p>
+                    <p>Played at CM Festival 2020, 2021</p>
+                    <p>2015-Present</p>
+                </div>
+                
+                <div class="activity-card">
+                    <i class="fas fa-running"></i>
+                    <h3>Track and Field</h3>
+                    <p>High School Varsity Team</p>
+                    <p>2022-2024</p>
+                </div>
+                
+                <div class="activity-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Music Theory</h3>
+                </div>
+                
+                <div class="activity-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Psychology</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>wang6601@purdue.edu</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>(669)-291-4256</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Paolo Wang</h3>
+                    <p>Artificial Intelligence Student</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Paolo Wang. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
