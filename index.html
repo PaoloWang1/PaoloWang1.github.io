@@ -1,13 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paolo Wang</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Paolo Wang</h1>
+            <p class="intro">Hi! I'm Paolo, a student majoring in Artificial Intelligence at Purdue University. 
+                My current main interests are computer vision and adversarial machine learning, as well as the applications of AI in music. 
+                I'm currently leading a research team developing a real-time posture evaluation mobile app for cellists using computer vision and assisting with research on adversarial machine learning with a PHD candidate at Purdue. 
+                In my free time, I enjoy practicing the <a href="https://www.youtube.com/@paolowang4671">piano</a>, reading, and occasionally hooping.</p>
+            <div class="contact-links">
+                <p>wang6601 [at] purdue [dot] edu</p>
+                <a href="https://github.com/PaoloWang1">github</a>
+                <span class="separator">/</span>
+                <a href="https://www.linkedin.com/in/paolo-wang-559a94243/">linkedin</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Work</h2>
+            
+            <div class="item">
+                <div class="item-title">
+                    <strong>Research Team Lead</strong>
+                    <span class="org">Purdue AIM</span>
+                </div>
+                <p class="description">Leading team of 10 for AI4Musicians Evaluator project, working under Prof. Yung Hsiang Lu (ECE) and Prof. Yeon Ji Yun (Music) to build a real-time, on-device mobile app for cellist posture evaluation.. 
+                    Trained, finetuned, and optimized YOLOv11 model through input size reduction, Pytorch to TFLite conversion, and FP16 quantization (overalll 4x reduction in inference time).
+                    Led team in transition from cloud computing to on-device inference (2x reduction in frame processing latency)</p>
+                <p class="meta">June 2025 - Present</p>
+            </div>
+
+            <div class="item">
+                <div class="item-title">
+                    <strong>Research Intern</strong>
+                    <span class="org">UC Santa Cruz</span>
+                </div>
+                <p class="description">Analyzed misinformation diffusion on social media with 3 other interns. Collected and classified ~200 posts from TikTok and Twitter, studied distribution patterns across platforms.</p>
+                <p class="meta">Summer 2023</p>
+            </div>
+
+            <div class="item">
+                <div class="item-title">
+                    <strong>Teaching Assistant</strong>
+                    <span class="org">Saratoga High School</span>
+                </div>
+                <p class="description">TA for AP Physics 1&2. Ran labs, answered questions, graded assignments.</p>
+                <p class="meta">2023 - 2024</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Research</h2>
+            
+            <div class="item">
+                <div class="item-title">
+                    <strong>Adversarial Machine Learning</strong>
+                </div>
+                <p class="description">Currently researching the robustness and security of ML models against adversarial attacks—exploring how models break and how to make them more resilient.</p>
+                <p class="meta">2025</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            
+            <div class="item">
+                <div class="item-title">
+                    <strong>Image Generation VAE</strong>
+                </div>
+                <p class="description">Built variational autoencoders to generate images of hands and abstract paintings. Trained on 10k and 18k image datasets using Tensorflow.</p>
+                <p class="meta">Jan - Aug 2023</p>
+            </div>
+
+            <div class="item">
+                <div class="item-title">
+                    <strong>Music Generation LSTM</strong>
+                </div>
+                <p class="description">Trained an LSTM to generate piano music from 1k+ MIDI files using Keras.</p>
+                <p class="meta">Aug - Oct 2022</p>
+            </div>
+
+            <div class="item">
+                <div class="item-title">
+                    <strong>Painting Classifier</strong>
+                </div>
+                <p class="description">CNN to classify paintings by seven artists. Organized 2k labeled images.</p>
+                <p class="meta">Jan - Mar 2022</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            
+            <div class="item">
+                <div class="item-title">
+                    <strong>Purdue University</strong>
+                </div>
+                <p class="description">BS in Artificial Intelligence / GPA: 3.96</p>
+                <p class="description-sub">Relevant: Linear Algebra, AI Basics, Probability</p>
+                <p class="description-sub">Skills: Python (PyTorch, TensorFlow), Java, C++, Kotlin</p>
+                <p class="meta">Expected May 2027</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Misc</h2>
+            
+            <div class="item">
+                <div class="misc-grid">
+                    <div class="misc-item">
+                        <strong>Piano</strong>
+                        <p>Certificate of Merit Level 9</p>
+                        <p class="meta-small">CM Festival 2020, 2021</p>
+                    </div>
+                    <div class="misc-item">
+                        <strong>Track & Field</strong>
+                        <p>High School Varsity Team</p>
+                        <p class="meta-small">2022-2024</p>
+                    </div>
+                    <div class="misc-item">
+                        <strong>Languages</strong>
+                        <p>English (Native)</p>
+                        <p>Mandarin (Native)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Purdue Summer Undergraduate Research Fellowship recipient • YOLOv11 • Computer Vision • PyTorch • TensorFlow</p>
+        </footer>
+    </div>
+</body>
 </html>
